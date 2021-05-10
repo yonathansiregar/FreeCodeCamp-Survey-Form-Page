@@ -20,8 +20,8 @@ Here are the issues report that use the suggested technology stack (HTML, Plain 
 16. User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 
 Besides making this repository, I also put my code and preview the survey form page is in here:
-https://codepen.io/yonathansiregar/pen/OJpPdvd => Editor View
-https://codepen.io/yonathansiregar/details/OJpPdvd => Details View
-https://codepen.io/yonathansiregar/full/OJpPdvd => Full Page View
+1. https://codepen.io/yonathansiregar/pen/OJpPdvd => Editor View
+2. https://codepen.io/yonathansiregar/details/OJpPdvd => Details View
+3. https://codepen.io/yonathansiregar/full/OJpPdvd => Full Page View
 
 Happy Coding! See you at my next project!
