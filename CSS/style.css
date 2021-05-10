@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu:wght@300&display=swap');
+
+/* CSS Reset */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(5, 5, 100, 0.6);
+}
+
+#title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+#description {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    form {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+/* Form style */
+#survey-form {
+    border-radius: 5px;
+    background-color: #6a25a3;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+label {
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+.name-form input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.name-form::-ms-input-placeholder {
+    font-family: 'Itim', cursive;
+}
+
+.email-address-form input[type = email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.number-form input[type = number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.dropdown-form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox-form input[type = check] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.submit-button input[type=submit] {
+    width: 100%;
+    background-color: #00bd06;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.submit-button input[type=submit]:hover {
+    background-color: #277c00;
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+
+footer {
+    color: white;
+    font-family: 'Itim', cursive;
+    background-color: rgb(16, 18, 165);
+    margin-left: 30px;
+    margin-right: 30px;
+}

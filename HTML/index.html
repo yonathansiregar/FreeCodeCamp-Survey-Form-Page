@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Y∅8 Survey Form </title>
+    <!-- Using external CSS Link to Bootstrap 5 below -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Using external CSS Link to my own style below -->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body oncontextmenu = "return false" transition = "no">
+    <div class="container">
+        <div id = "heading">
+            <h1 id = "title"> Y∅8 Survey Form </h1>
+            <p id = "description"> Thank You For Taking The Time to Help Us Improve The Platform </p>
+        </div>
+    
+        <div>
+            <form id = "survey-form" action = "">
+                <div class="name-form">
+                    <label for = "name" id = "name-label"> Your Full Name </label>
+                    <input type = "text" id = "name" name = "fullname" placeholder = "Enter your name here" required>
+                </div>
+            
+                <div class="email-address-form">
+                    <label for = "email" id = "email-label"> Your Email Address </label>
+                    <input type = "email" id = "email" name = "email" placeholder = "Enter your email here" required>
+                </div>
+                
+                <div class="number-form">
+                    <label id = "number-label" for="number">Your Current Age <span class = "clue">(optional)</span></label>
+                    <input type="number" id = "number" name = "age" placeholder = "Enter your current age here"min = "1" max = "99">
+                </div>
+                
+                <div class="dropdown-form">
+                    <label for = "job"> Your Current Role </label>
+                    <select id = "dropdown" name = "job" required>
+                        <option value = "current">Choose your current job</option>
+                        <option value = "student"> Student</option>
+                        <option value = "teacher"> Teacher </option>
+                        <option value = "usa"> USA </option>
+                        <option value=""></option>
+                    </select>
+                </div>
+    
+                <div class = "radio-button-form">
+                    <label class = "text-white"> Would you recommend this website is attractive to you? </label>
+                    <div class="form-check">
+                        <input class = "form-check-input" type = "radio" name = "flexRadioDefault" id = "flexRadioDefault1" value = "attractive">
+                        <label class = "form-check-label" for = "flexRadioDefault1"> It's definitely attractive to me. </label>
+                    </div>
+    
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value = "not-attractive">
+                        <label class="form-check-label" for="flexRadioDefault1"> It's not attractive yet, but I'll give you some recommendations later. </label>
+                    </div>
+                </div>
+    
+                <div class="check-box-form">
+                    <label class = "text-white"> Would you like to see improved? <span class = "clue"> (You can check all that apply) </span> </label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="front-end-projects" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault"> Front-end Projects </label>
+                    </div>
+    
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="back-end-projects" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault"> Back-end Projects </label>
+                    </div>
+        
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Challenges" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault"> Challenges </label>
+                    </div>
+        
+                    <div class="form-check">
+                        <input class = "form-check-input" type = "checkbox" value = "videos" id = "flexCheckDefault">
+                        <label class = "form-check-label" for = "flexCheckDefault"> Videos </label>
+                    </div>
+                </div>
+    
+                <div class="comment-form">
+                    <label for="comments"> Do you have any comments or suggestions? </label>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea comments"></textarea>
+                        <label for="floatingTextarea"> Comments </label>
+                    </div>
+                </div>
+    
+                <div class="submit-button">
+                    <input type = "submit" value="Submit" id = "submit">
+                </div>
+            </form>
+        </div>
+
+        <div class="footer-bottom text-center">
+            <footer> Copyright&copy; 2021 <br> Made by Alfrenanda Yonathan Siregar </footer>
+        </div>
+    </div>
+
+    <script src="../JS/main.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
